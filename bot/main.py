@@ -79,6 +79,7 @@ async def help_handler(callback: CallbackQuery, state: FSMContext):
     await callback.message.answer(
         "🧾 Qoidalar:\n"
         "- Mafiya kechasi kimnidir o‘ldiradi\n"
+        "- Don mafiyaga yordam beradi\n"
         "- Komissar tekshiradi\n"
         "- Doktor davolaydi\n"
         "- Tinch aholi o‘ldirilmaslikka harakat qiladi\n"
